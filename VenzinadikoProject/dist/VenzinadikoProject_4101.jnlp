@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="VenzinadikoProject_4101.jnlp">
+  <information>
+    <title>VenzinadikoProject_4101</title>
+    <vendor>Chrysanthi</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="VenzinadikoProject_4101.jar" size="10835" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="VenzinadikoProject_4101" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="venzinadikoproject_4101.VenzinadikoProject_4101"  name="VenzinadikoProject_4101" />
+  <update check="always"/>
+</jnlp>

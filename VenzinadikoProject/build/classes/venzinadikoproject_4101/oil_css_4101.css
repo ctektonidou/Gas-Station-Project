@@ -1,0 +1,62 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 12 Μαϊ 2020, 5:32:49 μμ
+    Author     : Chrysanthi
+*/
+
+
+.root {
+  -fx-background-color: #adebad; /*χρωμα background*/
+}
+
+.button {
+  -fx-background-color: #3CBC8D; /*χρωμα background*/
+  -fx-padding: 10px 15px; /*μεγεθος*/
+  -fx-text-align: center; /*θέση κειμένου*/
+  -fx-font-size: 14px; /*μεγεθος γραμματων*/
+  -fx-border-radius: 4px; /*παχος γυρω γυρω από το κουμπί*/
+  -fx-border-color: #006600; /*χρωμα γυρω γυρω */
+  -fx-text-fill: #333300; /*χρωμα κουμπιου*/
+}
+
+.text-field{
+  -fx-background-color: #3CBC8D; /*χρωμα background*/
+  -fx-width: 100%; 
+  -fx-padding: 12px 20px; /*μεγεθος*/
+  -fx-margin: 8px 0;
+  -fx-box-sizing: border-box; /*μέγεθος*/
+  -fx-border-color: #006600; /* χρώμα γύρω γύρω*/
+  -fx-border-radius: 4px;  /*παχος γυρω γυρω */
+  -fx-font-size: 18px; /*μεγεθος γραμματων*/
+  -fx-text-fill: black; /*χρωμα*/
+}
+
+
+.label{
+   -fx-text-fill: #333300;
+   -fx-font-size: 16px;
+}
+
+.radio-button .radio {
+    -fx-border-width: 1px;
+    -fx-border-color: #000;
+    -fx-background-color: null;
+    -fx-background-image: null;
+    -fx-border-radius: 50%; /*παχος γυρω γυρω από το κουμπί*/
+    -fx-padding: 4px;
+}
+
+.radio-button .dot { /*για την τελιτσα μεσα στο κουμπί*/
+    -fx-background-radius: 15px; /*παχος γυρω γυρω από το κουμπί*/
+    -fx-padding: 8px;
+}
+.radio-button:selected .radio .dot { /*χαρακτηριστικά για το κουμπί που θα επιλεχθέι - μαυρη τελίτσα*/
+    -fx-background-color: black;
+    -fx-background-insets: 0;
+}
+
+/*gia bold grammata -fx-font-weight: bold;*/
